@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Examen1</title>
+</head>
+<body>
+
+    <H1 id="titulo">Juego del espejo </H1>
+
+    <div class="container text-center">
+        <div class="row align-items-start">
+          <div id="espaciado" class="col">
+    <div>
+    <button onclick=ponerx(1) id="1" type="button" class="btn btn-info"></button>
+    <button onclick="ponerx(2)" id="2" type="button" class="btn btn-info"></button>
+    <button onclick="ponerx(3)" id="3"  type="button" class="btn btn-info"></button>
+    <button onclick="ponerx(4)" id="4" type="button" class="btn btn-info"></button>
+    <button onclick="ponerx(5)" id="5" type="button" class="btn btn-info"></button>
+    <button onclick="ponerx(6)" id="6" type="button" class="btn btn-info"></button>
+    <button onclick="ponerx(7)" id="7" type="button" class="btn btn-info"></button>
+    <button onclick="ponerx(8)" id="8" type="button" class="btn btn-info"></button> 
+    </div> 
+    <div>
+        <button onclick="ponerx(9)" id="9" type="button" class="btn btn-info"></button>
+        <button onclick="ponerx(10)" id="10" type="button" class="btn btn-info"></button>
+        <button onclick="ponerx(11)" id="11"  type="button" class="btn btn-info"></button>
+        <button onclick="ponerx(12)" id="12" type="button" class="btn btn-info"></button>
+        <button onclick="ponerx(13)" id="13" type="button" class="btn btn-info"></button>
+        <button onclick="ponerx(14)" id="14" type="button" class="btn btn-info"></button>
+        <button onclick="ponerx(15)" id="15" type="button" class="btn btn-info"></button>
+        <button onclick="ponerx(16)" id="16" type="button" class="btn btn-info"></button> 
+        </div>  
+        <div>
+            <button onclick="ponerx(17)" id="17" type="button" class="btn btn-info"></button>
+            <button onclick="ponerx(18)" id="18" type="button" class="btn btn-info"></button>
+            <button onclick="ponerx(19)" id="19"  type="button" class="btn btn-info"></button>
+            <button onclick="ponerx(20)" id="20" type="button" class="btn btn-info"></button>
+            <button onclick="ponerx(21)" id="21" type="button" class="btn btn-info"></button>
+            <button onclick="ponerx(22)" id="22" type="button" class="btn btn-info"></button>
+            <button onclick="ponerx(23)" id="23" type="button" class="btn btn-info"></button>
+            <button onclick="ponerx(24)" id="24" type="button" class="btn btn-info"></button> 
+            </div> 
+            <div>
+                <button onclick="ponerx(25)" id="25" type="button" class="btn btn-info"></button>
+                <button onclick="ponerx(26)" id="26" type="button" class="btn btn-info"></button>
+                <button onclick="ponerx(27)" id="27"  type="button" class="btn btn-info"></button>
+                <button onclick="ponerx(28)" id="28" type="button" class="btn btn-info"></button>
+                <button onclick="ponerx(29)" id="29" type="button" class="btn btn-info"></button>
+                <button onclick="ponerx(30)" id="30" type="button" class="btn btn-info"></button>
+                <button onclick="ponerx(31)" id="31" type="button" class="btn btn-info"></button>
+                <button onclick="ponerx(32)" id="32" type="button" class="btn btn-info"></button> 
+                </div>     
+                <div>
+                    <button onclick="ponerx(33)" id="33" type="button" class="btn btn-info"></button>
+                    <button onclick="ponerx(34)" id="34" type="button" class="btn btn-info"></button>
+                    <button onclick="ponerx(35)" id="35"  type="button" class="btn btn-info"></button>
+                    <button onclick="ponerx(36)" id="36" type="button" class="btn btn-info"></button>
+                    <button onclick="ponerx(37)" id="37" type="button" class="btn btn-info"></button>
+                    <button onclick="ponerx(38)" id="38" type="button" class="btn btn-info"></button>
+                    <button onclick="ponerx(39)" id="39" type="button" class="btn btn-info"></button>
+                    <button onclick="ponerx(40)" id="40" type="button" class="btn btn-info"></button> 
+                    </div> 
+                    <div>
+                        <button onclick="ponerx(41)" id="41" type="button" class="btn btn-info"></button>
+                        <button onclick="ponerx(42)" id="42" type="button" class="btn btn-info"></button>
+                        <button onclick="ponerx(43)" id="43"  type="button" class="btn btn-info"></button>
+                        <button onclick="ponerx(44)" id="44" type="button" class="btn btn-info"></button>
+                        <button onclick="ponerx(45)" id="45" type="button" class="btn btn-info"></button>
+                        <button onclick="ponerx(46)" id="46" type="button" class="btn btn-info"></button>
+                        <button onclick="ponerx(47)" id="47" type="button" class="btn btn-info"></button>
+                        <button onclick="ponerx(48)" id="48" type="button" class="btn btn-info"></button> 
+                        </div>  
+                        <div>
+                            <button onclick="ponerx(49)" id="49" type="button" class="btn btn-info"></button>
+                            <button onclick="ponerx(50)" id="50" type="button" class="btn btn-info"></button>
+                            <button onclick="ponerx(51)" id="51"  type="button" class="btn btn-info"></button>
+                            <button onclick="ponerx(52)" id="52" type="button" class="btn btn-info"></button>
+                            <button onclick="ponerx(53)" id="53" type="button" class="btn btn-info"></button>
+                            <button onclick="ponerx(54)" id="54" type="button" class="btn btn-info"></button>
+                            <button onclick="ponerx(55)" id="55" type="button" class="btn btn-info"></button>
+                            <button onclick="ponerx(56)" id="56" type="button" class="btn btn-info"></button> 
+                            </div> 
+                            <div>
+                                <button onclick="ponerx(57)" id="57" type="button" class="btn btn-info"></button>
+                                <button onclick="ponerx(58)" id="58" type="button" class="btn btn-info"></button>
+                                <button onclick="ponerx(59)" id="59"  type="button" class="btn btn-info"></button>
+                                <button onclick="ponerx(60)" id="60" type="button" class="btn btn-info"></button>
+                                <button onclick="ponerx(61)" id="61" type="button" class="btn btn-info"></button>
+                                <button onclick="ponerx(62)" id="62" type="button" class="btn btn-info"></button>
+                                <button onclick="ponerx(63)" id="63" type="button" class="btn btn-info"></button>
+                                <button onclick="ponerx(64)" id="64" type="button" class="btn btn-info"></button> 
+                                </div> 
+                                <div>
+                                    <button onclick="ponerx(65)" id="65" type="button" class="btn btn-info"></button>
+                                    <button onclick="ponerx(66)" id="66" type="button" class="btn btn-info"></button>
+                                    <button onclick="ponerx(67)" id="67"  type="button" class="btn btn-info"></button>
+                                    <button onclick="ponerx(68)" id="68" type="button" class="btn btn-info"></button>
+                                    <button onclick="ponerx(69)" id="69" type="button" class="btn btn-info"></button>
+                                    <button onclick="ponerx(70)" id="70" type="button" class="btn btn-info"></button>
+                                    <button onclick="ponerx(71)" id="71" type="button" class="btn btn-info"></button>
+                                    <button onclick="ponerx(72)" id="72" type="button" class="btn btn-info"></button> 
+                                    </div> 
+</div>
+
+<div id="espaciado2" class="col">
+    <div>
+    <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+    <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+    <button onclick="ponerx()" id=""  type="button" class="btn btn-info"></button>
+    <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+    <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+    <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+    <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+    <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button> 
+    </div> 
+    <div>
+        <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+        <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+        <button onclick="ponerx()" id=""  type="button" class="btn btn-info"></button>
+        <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+        <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+        <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+        <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+        <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button> 
+        </div>  
+        <div>
+            <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+            <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+            <button onclick="ponerx()" id=""  type="button" class="btn btn-info"></button>
+            <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+            <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+            <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+            <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+            <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button> 
+            </div> 
+            <div>
+                <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                <button onclick="ponerx()" id=""  type="button" class="btn btn-info"></button>
+                <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button> 
+                </div>     
+                <div>
+                    <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                    <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                    <button onclick="ponerx()" id=""  type="button" class="btn btn-info"></button>
+                    <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                    <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                    <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                    <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                    <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button> 
+                    </div> 
+                    <div>
+                        <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                        <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                        <button onclick="ponerx()" id=""  type="button" class="btn btn-info"></button>
+                        <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                        <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                        <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                        <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                        <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button> 
+                        </div>  
+                        <div>
+                            <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                            <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                            <button onclick="ponerx()" id=""  type="button" class="btn btn-info"></button>
+                            <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                            <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                            <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                            <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                            <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button> 
+                            </div> 
+                            <div>
+                                <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                                <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                                <button onclick="ponerx()" id=""  type="button" class="btn btn-info"></button>
+                                <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                                <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                                <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                                <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                                <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button> 
+                                </div> 
+                                <div>
+                                    <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                                    <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                                    <button onclick="ponerx()" id=""  type="button" class="btn btn-info"></button>
+                                    <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                                    <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                                    <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                                    <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button>
+                                    <button onclick="ponerx()" id="" type="button" class="btn btn-info"></button> 
+                                    </div> 
+</div>
+
+</div>
+</div>
+
+
+<script src="e1.js"></script>
+
+</body>
+</html>
